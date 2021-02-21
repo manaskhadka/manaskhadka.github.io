@@ -1,0 +1,24 @@
+#navbar {
+	overflow: hidden;
+	background-color: rgb(53, 134, 101);
+	width: 100%;
+}
+
+#navbar a {
+	float: left;
+	display: block;
+	color: rgb(17, 26, 34);
+	text-align: center;
+	padding: 20px;
+	text-decoration: none;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.sticky + p {
+	padding-top: 75px;
+}
